@@ -2,12 +2,17 @@
 
 A Retrieval-Augmented Generation (RAG) application designed to help UCSD students find information about Computer Science & Engineering (CSE) courses. This tool scrapes the UCSD course catalog, processes the data, and uses an AI agent to answer student queries with context-aware responses.
 
+![App Demo Screenshot](assets/app-demo.png)
+
+![Sample question](sample_question.png)
+
 ## 🚀 Features
 
 - **RAG Architecture**: Retrieves relevant course data from the UCSD catalog to ground LLM responses in fact.
 - **Hybrid Search**: Combines **Vector Similarity Search** (ChromaDB) with **Keyword Search** (BM25) for higher accuracy.
 - **Reranking**: Uses **FlashRank** to re-order search results by relevance before sending them to the LLM.
 - **Interactive UI**: Built with **Streamlit** for a chat-like experience.
+- **Streaming Responses**: Real-time token streaming for a smoother user experience.
 
 ## 🛠️ Tech Stack
 

@@ -59,11 +59,11 @@ def get_agent():
         print("--- Database is empty. Indexing content... ---")
         # Step 1: Loading
         # bs4 specificly look class named 'layout-main'
-        bs4_strainer = bs4.SoupStrainer(class_=("layout-main"))
+        # bs4_strainer = bs4.SoupStrainer(class_=("layout-main"))
         # Webbaseloader visit url and apply strainer to extract info
         loader = WebBaseLoader(
             web_path=("https://catalog.ucsd.edu/courses/CSE.html",),
-            bs_kwargs={"parse_only": bs4_strainer},
+            # bs_kwargs={"parse_only": bs4_strainer},
         )
         # Ececute the fetch, return a list of Document objects
         docs = loader.load()
