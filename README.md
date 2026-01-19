@@ -31,7 +31,7 @@ A Retrieval-Augmented Generation (RAG) application designed to help UCSD student
 1.  **Clone the repository**
 
     ```bash
-    git clone [https://github.com/Danny-jin/ucsd-rag-assistant.git](https://github.com/Danny-jin/ucsd-rag-assistant.git)
+    git clone https://github.com/Danny-jin/ucsd-rag-assistant.git
     cd ucsd-rag-assistant
     ```
 
