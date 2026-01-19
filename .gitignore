@@ -1,0 +1,12 @@
+# Security
+.env
+venv/
+.venv/
+# Database (Too large for Git)
+__pycache__/
+chroma_db/
+# Mac System Files
+.DS_Store
+# Other
+data/
+old_outdated/

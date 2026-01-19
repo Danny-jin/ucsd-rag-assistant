@@ -1,0 +1,11 @@
+streamlit
+langchain
+langchain-openai
+langchain-chroma
+langchain-community
+langchain-core
+python-dotenv
+beautifulsoup4
+rank_bm25
+flashrank
+chromadb
