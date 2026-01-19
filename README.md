@@ -4,7 +4,7 @@ A Retrieval-Augmented Generation (RAG) application designed to help UCSD student
 
 ![App Demo Screenshot](assets/app-demo.png)
 
-![Sample question](sample_question.png)
+![Sample question](assets/sample_question.png)
 
 ## 🚀 Features
 
