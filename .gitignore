@@ -10,3 +10,5 @@ chroma_db/
 # Other
 data/
 old_outdated/
+assets/
+.vscode/
