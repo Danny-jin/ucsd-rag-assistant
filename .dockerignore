@@ -1,0 +1,11 @@
+.venv
+.vscode
+__pycache__
+assets
+chroma_db
+data
+old_outdated
+.env
+.git
+app.py
+
