@@ -1,14 +1,35 @@
 # Security
 .env
+.env.local
+.env.*.local
+
+# Python venvs
 venv/
 .venv/
-# Database (Too large for Git)
+
+# Python cache
 __pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Testing
+.pytest_cache/
+
+# Database (Too large for Git)
 chroma_db/
+
 # Mac System Files
 .DS_Store
-# Other
+
+# Editor
+.vscode/
+
+# Project-specific
 data/
 old_outdated/
 assets/
-.vscode/
+
+# Frontend
+ucsd-Frontend
+

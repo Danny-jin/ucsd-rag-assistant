@@ -1,11 +1,36 @@
-.venv
-.vscode
-__pycache__
-assets
-chroma_db
-data
-old_outdated
-.env
-.git
-app.py
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
 
+# Local data / DBs
+chroma_db/
+data/
+
+# Secrets
+.env
+
+# Git
+.git/
+.gitignore
+
+# Editor / OS
+.vscode/
+.DS_Store
+
+# Project-specific
+assets/
+old_outdated/
+ucsd-frontend/
+
+# ETL (runs separately, not needed by API)
+etl_pipeline.py
+
+# Docker meta
+Dockerfile
+.dockerignore
+
+# Docs
+README.md
